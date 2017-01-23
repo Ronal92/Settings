@@ -17,7 +17,7 @@ public class SettingsActivity extends AppCompatActivity implements View.OnClickL
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
 
-        //2. findViewById로 뷰 세팅
+        //2. findViewById로 뷰 세팅.
         btn = (Button) findViewById(R.id.button);   // Library 문제는 Alt + Enter를 누르면 된다.
         tv = (TextView) findViewById(R.id.textView);//findViewByID는 항상 View를 반환한다. View는 가장 상위클래스이기 때문에 Button으로 타입 캐스팅을 해주어야 한다.
 
