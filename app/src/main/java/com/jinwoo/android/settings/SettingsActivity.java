@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-// 이벤트(버튼 눌림)를 발생시키기 위해 인터페이스를 사용한다.
+// 이벤트(버튼 눌림)를 발생시키기 위해 인터페이스를 사용한다
 public class SettingsActivity extends AppCompatActivity implements View.OnClickListener{
     //1. 레이아웃 .xml에서 사용하는 뷰 객체 정의
     Button btn;
