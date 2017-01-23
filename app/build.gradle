@@ -16,7 +16,11 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner" // 테스트 환경
     }
 
-    //릴리즈 모드에서
+    lintoptions{
+        abortOnError false
+    }
+
+    //키값 정보
     signingConfigs{
         release{
             storeFile file("../keystore/keystore.jks")
