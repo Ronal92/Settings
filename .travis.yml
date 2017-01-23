@@ -4,9 +4,9 @@ jdk : oraclejdk8
 
 android:
   components:
-  - platform-tools #ADB(디바이스 또는 에뮬레이터 통신)
-  - tools #실제 안드로이드 SDK
-  - build-tools-24.0.3 #빌드툴버전
+  - platform-tools
+  - tools
+  - build-tools-24.0.3
   - android-24
   - extra-android-m2repository
 
